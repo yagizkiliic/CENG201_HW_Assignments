@@ -8,7 +8,7 @@ public class PatientList {
     }
 
     public void addPatient(Patient patient){  //Add a new patient to the list.
-        Node newNode = new Node(patient);
+        Node newNode = new Node(patient); // Creating new Patient object.
         if (head == null) {
             head = newNode;
             tail = newNode;

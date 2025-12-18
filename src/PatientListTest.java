@@ -3,11 +3,11 @@ public class PatientListTest {
         PatientList patientList = new PatientList();
 
         // Add 5 patients to the list.
-        patientList.addPatient(new Patient(1, "Alice", 3, 30));
-        patientList.addPatient(new Patient(2, "Bob", 5, 45));
-        patientList.addPatient(new Patient(3, "Charlie", 2, 25));
-        patientList.addPatient(new Patient(4, "David", 4, 50));
-        patientList.addPatient(new Patient(5, "Eve", 1, 35));
+        patientList.addPatient(new Patient(1, "Ali", 3, 30));
+        patientList.addPatient(new Patient(2, "Mehmet", 5, 45));
+        patientList.addPatient(new Patient(3, "Yağız", 2, 25));
+        patientList.addPatient(new Patient(4, "Yiğit", 4, 50));
+        patientList.addPatient(new Patient(5, "Ayşe", 1, 35));
         // Printing the patient list
         System.out.println("Patient List:");
         patientList.printList();
