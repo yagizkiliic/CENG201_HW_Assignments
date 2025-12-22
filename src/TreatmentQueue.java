@@ -34,7 +34,7 @@ public class TreatmentQueue {
         return request;
     }
 
-    int Size() { //Return the number of requests in the queue.
+    int size() { //Return the number of requests in the queue.
         return size;
     }
 
