@@ -45,7 +45,7 @@ public class TreatmentQueue {
         }
         NodeQueue temp = front;
         while (temp!=null) {
-            System.out.print("Patient ID: "+temp.data.patientId+" Arrival Time: "+temp.data.arrivalTime+" -> ");
+            System.out.print("Patient ID: "+temp.data.patientId+" -> ");
             temp = temp.next;
         }
     }
