@@ -22,6 +22,10 @@ public class HospitalSystem {
     }
 
     public void addTreatmentRequest(int patientId, boolean priority) {
+        if (patientMap.get(patientId) == null) {  // check patient are in list
+            System.out.println("Patient not found: " + patientId);
+            return;
+        }
         TreatmentRequest request = new TreatmentRequest(patientId);
         if (priority == true) {  // Check priority or normal
             priorityQueue.enQueue(request);
