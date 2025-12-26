@@ -34,6 +34,8 @@ public class HospitalSystemTest {
         hospitalSystem.processTreatment();
         hospitalSystem.processTreatment();
 
+        //hospitalSystem.sortPatients();
+
         hospitalSystem.printSystemState();
     }
 }
